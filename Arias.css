@@ -1,0 +1,118 @@
+body{
+    background-image: url("bg cafe.jpg");
+    width: 100%;
+    height: 1024px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 32px;
+}
+a {
+    color: white;
+    position: relative;
+    margin-right:20px;
+    margin-inline: center;
+    text-decoration: none;
+}
+
+
+.container img{
+    width: 210px;
+    height: 290px;
+    object-fit: cover;
+    margin: 90px;
+    position: absolute;
+    top: 80px;
+    right: 410px;
+}
+@media (max-width: 768px) {
+    .container img {
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
+    }
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+    border-color: white;
+}
+h1{
+    text-decoration: wavy;
+    color:#f7f7f7;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+h2{
+    text-decoration: wavy;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+} 
+h4{
+    text-decoration:solid;
+    color:#ffffff;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+.services img{
+    width: 450px;
+    height: 420px;
+    object-fit: cover;
+    margin: 80px;
+    border: 10px solid #ccc;
+    box-shadow: 10px 5px 12px rgba(255, 230, 0, 0.877);
+    position: absolute;
+    top: 80px;
+    right: 16px;
+}
+@media (max-width: 768px) {
+    .services img {
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
+    }
+}
+.coffee img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border: 2px solid #884200;
+    box-shadow: 10px 5px 12px rgba(0, 243, 32, 0.753);
+    position: relative;
+}
+@media (max-width: 768px) {
+    .coffee img {
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
+    }
+}
+h6{
+    text-decoration: wavy;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#fdfdfd;
+}
+
